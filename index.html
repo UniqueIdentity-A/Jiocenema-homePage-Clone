@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        JioCinema - Watch Sports, Movies, TV & Voot Shows Online in HD Quality
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/jc_logo.svg">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+<div class="t-navbar">
+    <div id="b-navbar">
+            <a class="b-rest-items b-active" href="#movieBox">For You</a>
+            <a class="b-rest-items" href="#">Sports</a>
+            <a class="b-rest-items" href="#">Free</a>
+            <a class="b-rest-items" href="#">Premium</a>
+            <a class="b-rest-items" href="#">News</a>
+            <a class="b-rest-items" href="#">More</a>
+    </div>
+    <nav class="navbar">
+        <img src="images/jc_logo.svg" class="brand-logo" />
+        <ul class="nav-links">
+            <li class="nav-items" id="jc"><a href="#">JioCinema</a></li>
+            <li class="nav-items" id="subscribe"><a href="#">Subscribe</a></li>
+            <div id="border">
+            <li class="nav-items "><a class="rest-items active" href="#movieBox">For You</a></li>
+            <li class="nav-items "><a class="rest-items" href="#">Sports</a></li>
+            <li class="nav-items "><a class="rest-items" href="#">Free</a></li>
+            <li class="nav-items "><a class="rest-items" href="#">Premium</a></li>
+            <li class="nav-items "><a class="rest-items" href="#">News</a></li>
+            </div>
+        </ul>
+        <div class="right-container">
+            <img class="m-search" src="images/search.svg" alt="search">
+            <div class="search-container">
+            <input type="text" placeholder="search" class="search-box" />
+            <span class="mic"><img src="/images/mic_icon.svg" alt="mic"></span>
+            </div>
+            <div href="#" class="login-link"><img src="/images/profile_avatar.svg" alt="avatar"></div>
+        </div>
+    </nav>
+</div>
+
+    <!-- Slider -->
+    <div class="carousel-container">
+        <div class="slider">
+            <div class="slider-content">
+                <div class="isc">
+                    <h1 class="movie-title">West Indies vs India</h1>
+                    <p class="movie-desc">IND 438 &amp; 181/2 d WI 255 &amp; 76/2 (32.0)</p><button
+                        class="btn">watch</button>
+                </div>
+            </div>
+            <div class="imgbox"><img src="images/cricket.jpg" class="slideimg"></div>
+        </div>
+        <div class="slider">
+            <div class="slider-content">
+                <div class="isc">
+                    <h1 class="movie-title">Big Boss</h1>
+                    <p class="movie-desc">Inside the BIG BOSS HOUSE</p><button class="btn">watch</button>
+                </div>
+            </div>
+            <div class="imgbox"><img src="images/bigg-punch-carousel.jpg" class="slideimg"></div>
+        </div>
+        <div class="slider">
+            <div class="slider-content">
+                <div class="isc">
+                    <h1 class="movie-title">Chicago Med</h1>
+                    <p class="movie-desc">English Drama U/A 16+</p><button class="btn">watch</button>
+                </div>
+            </div>
+            <div class="imgbox"><img src="images/chicago_med.jpg" class="slideimg"></div>
+        </div>
+        <div class="slider">
+            <div class="slider-content">
+                <div class="isc">
+                    <h1 class="movie-title">Do Gubbare</h1>
+                    <p class="movie-desc">Hindi Drama U/A 13+</p><button class="btn">watch</button>
+                </div>
+            </div>
+            <div class="imgbox"><img src="images/doGubbare.jpg" class="slideimg"></div>
+        </div>
+        <div class="slider">
+            <div class="slider-content">
+                <div class="isc">
+                    <h1 class="movie-title">Katron Ke Khiladi</h1>
+                    <p class="movie-desc">Hindi Reality U/A 13+</p><button class="btn">watch</button>
+                </div>
+            </div>
+            <div class="imgbox"><img src="images/katron_ke_Khiladi.jpg" class="slideimg"></div>
+        </div>
+        <div class="slider">
+            <div class="slider-content">
+                <div class="isc">
+                    <h1 class="movie-title">MTV Roadies</h1>
+                    <p class="movie-desc">Hindi Reality U/A 16+</p><button class="btn">watch</button>
+                </div>
+            </div>
+            <div class="imgbox"><img src="images/roadies.jpg" class="slideimg"></div>
+        </div>
+        <div class="slider">
+            <div class="slider-content">
+                <div class="isc">
+                    <h1 class="movie-title">The Harry Potter Film Series</h1>
+                    <p class="movie-desc">English Fantasy U/A 7+</p><button class="btn">watch</button>
+                </div>
+            </div>
+            <div class="imgbox"><img src="images/the_harry_potter.jpg" class="slideimg"></div>
+        </div>
+        <div class="slider">
+            <div class="slider-content">
+                <div class="isc">
+                    <h1 class="movie-title">The Idol</h1>
+                    <p class="movie-desc">English Drama A</p><button class="btn">watch</button>
+                </div>
+            </div>
+            <div class="imgbox"><img src="images/the_idol.jpg" class="slideimg"></div>
+        </div>
+        <div class="slider">
+            <div class="slider-content">
+                <div class="isc">
+                    <h1 class="movie-title">Trial Period</h1>
+                    <p class="movie-desc">Hindi Drama U/A 7+</p><button class="btn">watch</button>
+                </div>
+            </div>
+            <div class="imgbox"><img src="images/trial_period.jpg" class="slideimg"></div>
+        </div>
+    </div>
+
+    <!-- SlideShow handle buttons -->
+    <div class="movie-list">
+        <div class="slidebtn">
+            <div class="dotbox">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+            </div>
+            <img src="images/LeftArrow.svg" alt="previous" id="pre-btn" onclick="plusSlides(-1)">
+            <img src="images/RightArrow.svg" alt="next" id="nxt-btn" style="margin-right: 90px;" onclick="plusSlides(1)">
+        </div>
+     <!-- Hot right now container -->
+       
+        <h2 class="hot" >Hot Right Now 🔥</h2>
+        <div class="card-container" id="movieBox">
+            <div class="card">
+                <img src="images/down 1.jpg" alt="slide-1" class="card-img">
+            </div>
+            <div class="card">
+                <img src="images/down 2.jpg" alt="slide-2" class="card-img">
+            </div>
+            <div class="card">
+                <img src="images/down 3.jpg" alt="slide-3" class="card-img">
+            </div>
+            <div class="card">
+                <img src="images/down 4.jpg" alt="slide-4" class="card-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- movies -->
+    <div class="movie-box">
+        <h2 class="title">Just For You!</h2>
+        <div class="card-box">
+            <div class="box-card">
+                <img src="images/img1.webp" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img2.jpg" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img3.avif" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img4.webp" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img5.webp" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img6.webp" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img7.webp" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img8.webp" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img9.webp" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img10.jpg" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img11.jpg" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img12.webp" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img13.webp" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img14.jpg" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img15.webp" alt="" class="box-img">
+            </div>
+            <div class="box-card">
+                <img src="images/img16.webp" alt="" class="box-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="social-box">
+
+            <div class="support">
+                <h4>JioCinema</h4>
+                <p class="cinema">For You</p>
+                <p class="cinema">Sports</p>
+                <p class="cinema">Free</p>
+                <p class="cinema">Premiun</p>
+                <p class="cinema">IND vs WI Schedule</p>
+            </div>
+            <div class="support">
+                <h4>Support</h4>
+                <p class="cinema">Help Center</p>
+                <p class="cinema">Terms Of Use</p>
+                <p class="cinema">Privacy Policy</p>
+                <p class="cinema">Content Complaints</p>
+            </div>
+        </div>
+
+        <div class="social">
+            <hr>
+            <div class="s-icons">
+                
+                <h2>Connect With Us</h2>
+                <div class="icons">
+                    <div class="i-icon"><img src="images/facebook.svg" alt="facebook"></div>
+                    <div class="i-icon"><img src="images/twitter.svg" alt="Twitter"></div>
+                    <div class="i-icon"><img src="images/instagram.svg" alt="instagram"></div>
+                    <div class="i-icon"><img src="images/youtube.svg" alt="youtube"></div>
+                </div>
+            </div>
+            <hr>
+            <div class="s-icons">
+                <h2>Download the App</h2>
+                <div class="d-icons">
+                    <img src="images/googlePlay.svg" alt="googlePlay">
+                    <img src="images/appleStore.svg" alt="appleStore">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="end-tab">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <img src="images/jio-logo1.png" alt="JioCinema">
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
